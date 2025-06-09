@@ -13,6 +13,6 @@ int main() {
     average = sum / 5;
 
     // Output the average
-    printf("The average of the five numbers is: %.2f\n", average);
+    printf("The average of the five numbers is: %f\n", average);
 
 }

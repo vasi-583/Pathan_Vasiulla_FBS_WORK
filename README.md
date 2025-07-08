@@ -17,7 +17,7 @@ Each folder includes the Java source code (.java files) and any relevant instruc
 
 How to Use
 
-Clone the Repository:git clone https://github.com/vasi-583/Core-Java-repository.git
+Clone the Repository:git clone https://github.com/vasi-583/Pathan_Vasiulla_FBS_WORK/tree/main/Core%20Java
 
 
 Navigate to Specific Folders:

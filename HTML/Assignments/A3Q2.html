@@ -1,0 +1,94 @@
+<!-- Question 2: Use the following image as reference. Recreate this layout in HTML using
+only the below tags.
+
+<b>, <i>, <u>, <h1> to <h6>, <hr>, <br>, <pre>, <p>, <sub>, <sup>
+<a>with attribute target <img> with attribute alt,height,width <table> <tr> <td> <th> with
+attritibutes like colspan,rowspan,border,cellspacing ,cellpadding. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .logo {
+        width: 120px;
+        height: 120px;
+        margin-left: 44%;
+        
+    }
+    .table {
+          table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  tfoot td {
+    text-align: center;
+  }
+    }
+    
+</style>
+<body>
+        <img class="logo" src="https://i.postimg.cc/9FLzZYBS/logo.jpg" alt="">
+        <h1 style="padding-left: 30%;" >firstbit solutions, IT training institute</h1>
+        <i  style="    margin-left: 42%;" >learn IT, bit by bit.</i>
+
+
+<table class="table" border="1">
+  <thead>
+    <tr>
+      <th>Batch Name</th>
+      <th>Course</th>
+      <th>Trainer</th>
+      <th>Timing</th>
+      <th>Course Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>March Java FullStack</td>
+      <td>C Programming</td>
+      <td>Shubham Wagh</td>
+      <td>11:00AM - 1:00PM</td>
+      <td>C Topics</td>
+    </tr>
+    <tr>
+      <td>Feb Java FullStack</td>
+      <td>Core Java</td>
+      <td>Vinayak Ujalambe</td>
+      <td>5:00PM - 6:30PM</td>
+      <td>Core Java Topics</td>
+    </tr>
+    <tr>
+      <td>Jan Java Full Stack</td>
+      <td>Advance Java</td>
+      <td>Chetan Natu</td>
+      <td>7:00PM - 8:30PM</td>
+      <td>Adv Java Topics</td>
+    </tr>
+    <tr>
+      <td>Feb Python Full Stack</td>
+      <td>Core Python</td>
+      <td>Ranjeet Kamble</td>
+      <td>9:00AM - 10:30AM</td>
+      <td>Python Topics</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5">For more info, visit our office or WhatsApp us on 956119190</td>
+    </tr>
+  </tfoot>
+</table>
+
+</html>

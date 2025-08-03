@@ -1,0 +1,86 @@
+<!-- Question 2: Use the following image as reference. Recreate this layout in HTML. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBS_FORM</title>
+</head>
+
+<style>
+    img {
+        width: 120px;
+        height: 120px;
+    }
+
+</style>
+
+<body>
+    <h1>First bit solutions.</h1>
+    <img class="img" src="https://i.postimg.cc/9FLzZYBS/logo.jpg" alt="">
+    <h3><a href="https://firstbitsolutions.com">FIRSTBITSOLUTIONS.COM</a></h3>
+    <i>Your Future BEgins Here</i>
+    <hr>
+    <h2><u>Student Reg. Form</u></h2>
+    <form action="">
+        <b>full Name:</b> <br>
+        <input type="text" placeholder="full name " name="fullname" required>
+        <br>
+        <br>
+
+        <b>Email Id:</b> <br>
+        <input type="text" placeholder="email id " name="email" required>
+        <br>
+        <br>
+        <b>phone nmber:</b> <br>
+        <input type="text" placeholder="eg. 9876543210" name="phone" required>
+        <br>
+        <br>
+
+        <b>birth date:</b> <br>
+        <input type="date" placeholder="birth date" name ="birthdate" reequired>
+        <br>
+        <br>
+        <hr>
+        <b> Select gender:</b>
+        <br>
+        <input type="checkbox" name="agree" value="yes" required>male <br>
+        <input type="checkbox" name="agree" value="yes" required>female <br>
+        <input type="checkbox" name="agree" value="yes" required>other <br>
+        <br>
+        <b>course intrested in:</b>
+        <br>
+        <input type="checkbox" name="course" value="yes" required>javafullstack <br>
+        <input type="checkbox" name="course" value="yes" required>pythonfullstack <br>
+        <input type="checkbox" name="course" value="yes" required>datascience <br>
+        <input type="checkbox" name="course" value="yes" required>webdevelopment <br>
+        <br>
+        <b>prefered time</b>
+        <br>
+        <select name="select" id="">
+            <option value="mor">Morning</option>
+            <option value="aft">Afternoon</option>
+            <option value="eve">Evening</option>
+        </select>
+        <br>
+        <br>
+        <hr>
+        <b>write about yourself</b>
+        <br>
+        <input type="text" placeholder="write about yourself" name="about" required>
+        <br>
+        <br>
+        <b>rate your skill out of 10</b>
+        <br>
+        <input type="number" placeholder="rate(1-10)" name="skill" required>
+        <br>
+        <br>
+        <div style="text-align: center;">
+            <button>SUBMIT FORM</button>
+            <button> RESET FORM</button>
+        </div>
+        <HR>
+    </form>
+</body>
+</html>
